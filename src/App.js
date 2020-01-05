@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css'
 
+import provider from './assets/provider.png'
+
 function App(){
-  return <h1> Hello Reacteiros! </h1>
+  return <img src={provider} alt=""/>
 }
 
 export default App
